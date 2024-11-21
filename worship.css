@@ -1,0 +1,76 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Section styling */
+#worship-section {
+    padding: 50px;
+    background-color: #f5f9f8; /* Light gray background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container for content */
+.content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px; /* Space between the image and text */
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Image container */
+.image-container {
+    flex: 1; /* Take up 50% of the space */
+    max-width: 500px;
+}
+
+.image-container img {
+    width: 100%; /* Full width of the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Text container */
+.text-container {
+    flex: 2; /* Take up 50% or more space */
+    text-align: left;
+}
+
+.text-container h5 {
+    color: #00b300; /* Green color for heading */
+    text-transform: uppercase; /* Uppercase text */
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 1rem;
+    line-height: 1.8; /* Add line spacing for readability */
+    color: #555; /* Light gray text */
+    margin-bottom: 30px;
+}
+
+.text-container .cta-button {
+    display: inline-block;
+    background: #00b300; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Spacing for the button */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for button */
+.text-container .cta-button:hover {
+    background: #006600; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift button slightly */
+}

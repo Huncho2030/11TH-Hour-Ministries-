@@ -1,0 +1,93 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Services section styling */
+#services-section {
+    padding: 50px;
+    background-color: #f5f9f8; /* Light gray background */
+    text-align: center;
+}
+
+/* Section header */
+.services-header h5 {
+    color: #00b300; /* Green text */
+    text-transform: uppercase; /* Uppercase styling */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.services-header h1 {
+    font-size: 2.5rem; /* Large heading */
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #000; /* Black text */
+}
+
+/* Cards container */
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+}
+
+/* Individual service card */
+.service-card {
+    background-color: #fff; /* White card background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Clip content to border */
+    width: 300px; /* Fixed width for cards */
+    text-align: left; /* Align text to the left */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for card */
+.service-card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+/* Card image styling */
+.service-card img {
+    width: 100%; /* Full width of the card */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensure the image fits well */
+}
+
+/* Card content styling */
+.service-content {
+    padding: 20px;
+}
+
+.service-content h3 {
+    font-size: 1.2rem;
+    color: #000; /* Black text */
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Push arrow to the right */
+}
+
+.service-content h3 span {
+    font-size: 1.5rem;
+    color: #00b300; /* Green arrow */
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+/* Arrow hover effect */
+.service-content h3:hover span {
+    color: #006600; /* Darker green on hover */
+}
+
+.service-content p {
+    font-size: 0.9rem;
+    color: #555; /* Light gray text */
+    line-height: 1.6; /* Add line spacing */
+}

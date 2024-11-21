@@ -1,0 +1,68 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Section styling */
+#discover-section {
+    display: flex; /* Two-column layout */
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px; /* Space between text and image */
+    background-color: #fff; /* White background */
+}
+
+/* Text content styling */
+.content {
+    flex: 1; /* Take up 50% of the space */
+    max-width: 600px;
+}
+
+.content h5 {
+    color: #00b300; /* Green color */
+    text-transform: uppercase; /* Uppercase text */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 2.5rem; /* Large main heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.8; /* Add line spacing for readability */
+    color: #555; /* Light gray text */
+    margin-bottom: 20px;
+}
+
+.content .cta-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #00b300; /* Green color */
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.content .cta-link:hover {
+    color: #006600; /* Darker green on hover */
+}
+
+/* Image styling */
+.image {
+    flex: 1; /* Take up 50% of the space */
+}
+
+.image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Slightly rounded corners */
+}
